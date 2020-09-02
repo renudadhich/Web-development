@@ -1,0 +1,8 @@
+h2 {
+    color:green;
+}
+li {
+    list-style-type: none;
+    font-size:14px;
+    color:rgb(20, 13, 51);
+}

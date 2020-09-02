@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <h3>Show Game Control!</h3>
+       <app-game-control (evenNumber)="displayEvenNumbers($event)" (oddNumber)="displayOddNumbers($event)"></app-game-control>
+      <div class="col-xs-6"><app-even-number [numbers] = (evenNumbers)></app-even-number></div>
+     <div class="col-xs-6"><app-odd-number [numbers] = (oddNumbers)></app-odd-number></div> 
+    </div>
+  </div>
+</div>

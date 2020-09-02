@@ -1,0 +1,8 @@
+h2{
+    color:yellow;
+}
+li {
+    list-style-type: none;
+    font-size:14px;
+    color:rgb(70, 3, 20);
+}
